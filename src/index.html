@@ -6,8 +6,45 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body class="mat-typography">
   <app-root></app-root>
+  <script>
+    // window.addEventListener('mouseup', (event) => {
+    //   console.log('window message')
+    //   if (event.data === 'mouseup') {
+    //     // Handle the message from the parent
+    //     // For example, add a new span element to the iframe content
+    //     const newSpan = document.createElement('span');
+    //     newSpan.textContent = 'New Span Element in Iframe Content';
+    //     document.body.appendChild(newSpan);
+    //   }
+    // });
+    //
+    // document.addEventListener('mouseup', function (event) {
+    //   // Access the iframe element within the iframe content
+    //   const iframe = window.frameElement;
+    //   console.log('nererer');
+    //
+    //   if (iframe && iframe.tagName.toLowerCase() === 'iframe') {
+    //     const iframeSrc = iframe.getAttribute('src');
+    //     console.log('Iframe src:', iframeSrc);
+    //   }
+    // });
+    //
+    // window.addEventListener('load', function () {
+    //
+    //   const iframe = document.getElementById('iframe');
+    //   console.log('loaded', iframe.contentWindow.document.readyState);
+    //   // Check if the iframe is fully loaded
+    //   if (iframe.contentWindow.document.readyState === 'complete') {
+    //     // Add the mouseup event listener to the iframe content
+    //     iframe.contentWindow.document.addEventListener('mouseup', ()=> {console.log('woohoo22')});
+    //   }
+    // });
+  </script>
 </body>
 </html>
