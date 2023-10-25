@@ -11,9 +11,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { CommonModule } from '@angular/common';
 import { HighlightService } from './highlight-service/highlight.service';
-import {MatMenuModule} from "@angular/material/menu";
+import { MatMenuModule } from '@angular/material/menu';
 import { CommentDialogComponent } from './comment-dialog/comment-dialog.component';
-import {MatDialogModule} from "@angular/material/dialog";
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
