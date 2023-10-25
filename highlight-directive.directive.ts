@@ -18,7 +18,7 @@ import {
   withLatestFrom,
 } from 'rxjs';
 import { Text } from '@angular/compiler';
-import { HighlightService } from './highlight-service/highlight.service';
+import { HighlightService } from './src/highlight-service/highlight.service';
 
 @Directive({
   selector: '[appHighlightDirective]',

@@ -6,7 +6,7 @@ import {
   ViewChild,
 } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
-import { HighlightService } from './highlight-service/highlight.service';
+import { HighlightService } from './src/highlight-service/highlight.service';
 import { Observable } from 'rxjs';
 
 import { doHighlight } from './java-custom-highlighting.js';
